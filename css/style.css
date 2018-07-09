@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box
+}
+
+/* TEST to confirm .css file is linked. Delete later. */
+body {
+  background: lightyellow;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.c_img {
+    width: 33%;
+    padding: 10px;
+}
+
+.c_img img {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.side-left {
+    width: 40%;
+}
+.image-container {
+    width: 60%;
+    padding-top: 40px;
+}
+h3 {
+    font-weight: normal;
+}
+span {
+    color: red;
+}
+.slogan {
+	display: block;
+	margin-top: 10px;
+}
+
+.c_img a {
+    color: red;
+    font-style: italic;
+}
+.desc p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 25px;
+}

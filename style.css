@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box
+}
+
+/* TEST to confirm .css file is linked. Delete later. */
+body {
+  background: lightyellow;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.c_img {
+    width: 33%;
+    padding: 10px;
+}
+
+.c_img img {
+    width: 100%;
+}
